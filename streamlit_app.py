@@ -23,7 +23,7 @@ text_input = st.text_input("输入要判断的文字：")
 
 if st.button("提交", use_container_width=True):
     if option == "对话总结":
-        prompt = "你是一个有20年合规经验的基金公司监察稽核人员，请给出文本总结。"
+        prompt = "请给出文本总结，只总结，不要给出任何分析。"
     elif option == "基金经理违规项":
         prompt = "你是一个有20年合规经验的基金公司监察稽核人员，请根据文本说明该基金经理有哪些违规行为。"
     elif option == "改善建议":
