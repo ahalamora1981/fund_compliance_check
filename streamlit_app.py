@@ -14,7 +14,7 @@ def check(text_input, prompt):
     return response['choices'][0]['message']['content']
 
 st.title("基金公司销售电话合规检查")
-st.header("Powered by GPT 3.5)
+st.header("Powered by GPT 3.5")
 st.subheader("Created by Johnny Tao")
 
 option = st.selectbox(
