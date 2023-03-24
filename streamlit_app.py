@@ -15,7 +15,7 @@ def check(text_input, prompt):
 st.title("基金公司销售电话合规检查 with GPT3.5")
 
 option = st.selectbox(
-    "基金销售电话合规检查:",
+    "合规检查类型:",
     ("对话总结", "基金经理违规项", "改善建议")
 )
 
