@@ -5,6 +5,7 @@ openai.api_key = st.secrets["OPENAI_API_KEY"]
 def check(text_input, prompt):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
+        temperature = 0.2,
         messages=[
             {"role": "system", "content": prompt},
             {"role": "user", "content": text_input}
